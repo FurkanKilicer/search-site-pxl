@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap'
+);
+
+html,
+body {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    -webkit-scroll-behavior: smooth;
+    -ms-scroll-behavior: smooth;
+    -o-scroll-behavior: smooth;
+    -moz-scroll-behavior: smooth;
+}
+
+.navbar-brand {
+    font-size: 2.2rem;
+
+}
+
+.navbar-nav a {
+    transition: all ease-in-out .2s;
+}
+
+a.different:hover {
+    border: none;
+}
+
+a:hover {
+    border-bottom: 2px solid #8DE2A9 !important;
+}
+
+.navbar-color{
+    color: #808487!important;
+}
+
+
+.navbar-brand span {
+    color: #AEEDC0;
+}
+
+.color-green {
+    color: #8DE2A9;
+}
+
+.bg-color-green {
+    background-color: #8DE2A9;
+}
+
+.btn {
+    padding-right: 35px !important;
+    padding-left: 35px !important;
+}
+
+.border-bottom-first {
+    margin-left: 27rem;
+
+}
+
+.border-bottom-second {
+    margin-left: -25rem;
+
+}
+
+.carousel-indicators li {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: gray;
+}
+
+li:hover {
+    background-color: #8DE2A9;
+}
+
+li:visited {
+    background-color: #8DE2A9;
+}
+
+
+.carousel-indicators {
+    bottom: -65px;
+}
+
+.carousel-indicators .active {
+    background-color: #8DE2A9;
+}
+
+.footer-color {
+    background-color: #F2F2F2;
+}
+
+.color-fas {
+    color: #433E5E;
+}
+
+.color-footer-pexel {
+    color: #2C2747;
+}
+
+::placeholder{
+   color: #8DE2A9!important;
+   padding-left: 5px;
+   padding-top: 8px;
+}
+
+@media only screen and (max-width: 767.98px){
+    .mgn-btm{
+        margin-bottom: 20px;
+        
+    }
+
+    .mgn-btm-first{
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+}
+
+@media only screen and (max-width: 910.98px){
+    .brdr-btm{
+        margin-left: -30px;
+    }
+
+    .brdr-btm-right{
+        margin-left: 55px;
+    }
+}
+
